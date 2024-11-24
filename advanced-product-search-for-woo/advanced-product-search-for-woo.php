@@ -3,16 +3,18 @@
 Plugin Name: Advanced Product Search For WooCommerce
 Plugin URI: https://athemeart.net/downloads/advanced-product-search-for-woo/
 Description:Advanced Product Search For woocommerce  – powerful & simple live search plugin for WooCommerce
-Version: 1.1.7
+Version: 1.1.8
 Author: aThemeArt
 Author URI:  https://athemeart.net
 Domain Path: /languages/
-Tested up to: 6.6.5
+Text Domain: apsw-lang
+Tested up to: 6.8.1
 WC requires at least: 3.0.0
-WC tested up to: 8.6.2
+WC tested up to: 11.4.2
 */
 
 if ( ! defined('ABSPATH')) exit;  // if direct access
+		
 
 
 
@@ -47,7 +49,6 @@ class APSW_Product_Search_Finale_Class {
 	
         $this->apsw_load_defines();
         $this->apsw_load_scripts();
-		$this->apsw_load_textdomain();
         $this->apsw_load_functions();
         $this->apsw_load_classes();
 		$this->option_search_from 		= wp_parse_args ( apsw_get_option('apsw_search_form') );
@@ -62,6 +63,8 @@ class APSW_Product_Search_Finale_Class {
 		add_action( 'wp_ajax_apsw_dismiss_notice', array( $this, 'dismiss_nux' ) );
 		
 		//add_action( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'settings_action_links' )  );
+
+		$this->apsw_load_textdomain();
     }
 	/**
 	 * Main instance
@@ -230,7 +233,9 @@ class APSW_Product_Search_Finale_Class {
 			if ( is_textdomain_loaded( $domain ) ) {
 				return true;
 			} else {
-				return load_plugin_textdomain( $domain, false, $domain . '/languages' );
+				//return load_plugin_textdomain( $domain, false, $domain . '/languages' );
+
+				load_plugin_textdomain( 'apsw-lang', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 			}
 		} else {
 			$mo_orig = $l10n[$domain];

@@ -2,7 +2,7 @@
 Contributors: aThemeArt
 Tags:  woocommerce search page, woocommerce search form, woocommerce search filter, woocommerce search products, woocommerce search content, woocommerce search autocomplete, woocommerce advanced search, woocommerce search category, woocommerce search product attributes, woocommerce search by tag, woocommerce search by brand, woocommerce predictive, woocommerce live search, woocommerce single product search, woocommerce site search, woocommerce search, ajax, search, woocommerce, products, themes, woocommerce search by sku, woocommerce search results, woocommerce search shortcode , e-commerce, shop, ajax search, instant search, premium, aThemeArt, autocomplete, autosuggest, better search, category search, custom search, highlight terms, Live Search, Predictive Search, product search, relevant search, search highlight, search product, suggest, typeahead, WooCommerce Plugin, woocommerce product search, woocommerce search, wordpress ecommerce
 Requires at least: 5.0
-Tested up to: 6.3.6
+Tested up to: 6.8.1
 Stable tag: 1.0.9
 Requires PHP: 7.2.0
 Donate link: https://athemeart.net/downloads/advanced-product-search-for-woo/
@@ -75,6 +75,8 @@ Yes, it will work with any theme, but may require some styling to make it match 
 4. Plugins Options 3
 
 == Upgrade Notice ==
+= 1.1.5 =
+* Fix Text Domain issue
 
 = 1.1.4 =
 * Tested up to: 6.3.6
