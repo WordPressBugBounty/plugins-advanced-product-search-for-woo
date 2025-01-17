@@ -75,6 +75,10 @@ Yes, it will work with any theme, but may require some styling to make it match 
 4. Plugins Options 3
 
 == Upgrade Notice ==
+
+= 1.1.9 =
+* Fix WooCommerce's High-Performance Order Storage (HPOS)
+
 = 1.1.5 =
 * Fix Text Domain issue
 

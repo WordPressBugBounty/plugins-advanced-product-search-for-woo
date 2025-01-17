@@ -3,7 +3,7 @@
 Plugin Name: Advanced Product Search For WooCommerce
 Plugin URI: https://athemeart.net/downloads/advanced-product-search-for-woo/
 Description:Advanced Product Search For woocommerce  – powerful & simple live search plugin for WooCommerce
-Version: 1.1.8
+Version: 1.1.9
 Author: aThemeArt
 Author URI:  https://athemeart.net
 Domain Path: /languages/
@@ -14,10 +14,6 @@ WC tested up to: 11.4.2
 */
 
 if ( ! defined('ABSPATH')) exit;  // if direct access
-		
-
-
-
 class APSW_Product_Search_Finale_Class {
 	
 	 /**
@@ -297,6 +293,13 @@ class APSW_Product_Search_Finale_Class {
 	}
 
 }
+
+function apsw_product_search_hpos_compatibility() {
+	if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
+		\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
+	}
+}
+add_action( 'before_woocommerce_init', 'apsw_product_search_hpos_compatibility' );
 
 global $apsw_product_search_final_class;
 if ( ! $apsw_product_search_final_class ) {
