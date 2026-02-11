@@ -1,11 +1,11 @@
 ﻿=== Advanced Product Search For WooCommerce ===
 Contributors: aThemeArt
-Tags:  woocommerce search page, woocommerce search form, woocommerce search filter, woocommerce search products, woocommerce search content, woocommerce search autocomplete, woocommerce advanced search, woocommerce search category, woocommerce search product attributes, woocommerce search by tag, woocommerce search by brand, woocommerce predictive, woocommerce live search, woocommerce single product search, woocommerce site search, woocommerce search, ajax, search, woocommerce, products, themes, woocommerce search by sku, woocommerce search results, woocommerce search shortcode , e-commerce, shop, ajax search, instant search, premium, aThemeArt, autocomplete, autosuggest, better search, category search, custom search, highlight terms, Live Search, Predictive Search, product search, relevant search, search highlight, search product, suggest, typeahead, WooCommerce Plugin, woocommerce product search, woocommerce search, wordpress ecommerce
+Tags: woocommerce search, ajax search, product search, autocomplete, live search
 Requires at least: 5.0
-Tested up to: 6.8.1
-Stable tag: 1.0.9
+Tested up to: 6.8.4
+Stable tag: 1.1.9
 Requires PHP: 7.2.0
-Donate link: https://athemeart.net/downloads/advanced-product-search-for-woo/
+Donate link: https://athemeart.com/downloads/advanced-product-search-for-woo/
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 

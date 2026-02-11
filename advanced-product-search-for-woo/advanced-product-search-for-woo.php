@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Advanced Product Search For WooCommerce
-Plugin URI: https://athemeart.net/downloads/advanced-product-search-for-woo/
+Plugin URI: https://athemeart.com/downloads/advanced-product-search-for-woo/
 Description:Advanced Product Search For woocommerce  – powerful & simple live search plugin for WooCommerce
 Version: 1.1.9
 Author: aThemeArt
