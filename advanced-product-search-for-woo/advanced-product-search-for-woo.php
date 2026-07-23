@@ -2,13 +2,13 @@
 /*
 Plugin Name: Advanced Product Search For WooCommerce
 Plugin URI: https://athemeart.com/downloads/advanced-product-search-for-woo/
-Description:Advanced Product Search For woocommerce  – powerful & simple live search plugin for WooCommerce
-Version: 1.1.9
+Description: Advanced Product Search For woocommerce  – powerful & simple live search plugin for WooCommerce
+Version: 1.2.0
 Author: aThemeArt
 Author URI:  https://athemeart.net
 Domain Path: /languages/
 Text Domain: apsw-lang
-Tested up to: 6.8.1
+Tested up to: 7.0.2
 WC requires at least: 3.0.0
 WC tested up to: 11.4.2
 */

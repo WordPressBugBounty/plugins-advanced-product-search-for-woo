@@ -59,13 +59,14 @@ jQuery( document ).ready( function($) {
 					$html +=  data.title;
 					$html +='</span> ';
 					
-					
-					if( typeof data.price !== "undefined"  && data.price != ""  ){
-						$html +=' <span class="apsw-price"> '+ data.price +' </span>';
-					}
+					$html +='<span class="d-flex">';
 					if( typeof data.content !== "undefined"  && data.content != ""  ){
 						$html +=' <span class="apsw_result_excerpt"> '+ data.content +' </span>';
 				   	}
+				   	if( typeof data.price !== "undefined"  && data.price != ""  ){
+						$html +=' <span class="apsw-price"> '+ data.price +' </span>';
+					}
+				   	$html +='</span>';
 					if( typeof data.rating !== "undefined"  && data.rating != ""  ){
 						$html +=' <span class="apsw_result_rating"> '+ data.rating +' </span>';
 				   	}

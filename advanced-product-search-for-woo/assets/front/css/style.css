@@ -281,10 +281,11 @@ ul.apsw_data_container li.apsw_empty a:focus{
 	
 }
 ul.apsw_data_container li .apsw-price{
-	position:absolute;
-	right:25px;
-	top:15px;
 	font-weight:bold;
+	margin-left: auto;
+}
+ul.apsw_data_container li .apsw-price del{
+	position: relative;
 }
 ul.apsw_data_container .apsw_img_product{
 	display:table-cell;
@@ -297,6 +298,9 @@ ul.apsw_data_container .apsw-info-product{
 	padding-left:20px;
 	vertical-align:middle;
 }
+ul.apsw_data_container .apsw-info-product .d-flex{
+	display: flex;
+}
 ul.apsw_data_container .apsw-name{
 	display:block;
 	font-size:14px;
@@ -307,8 +311,7 @@ ul.apsw_data_container  .apsw-price{
 	float:right;	
 }
 ul.apsw_data_container .apsw_result_excerpt{
-	display:block;
-	padding-right:120px;	
+	width: 75%;	
 }
 
 

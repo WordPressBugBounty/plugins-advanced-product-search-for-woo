@@ -2,8 +2,8 @@
 Contributors: aThemeArt
 Tags: woocommerce search, ajax search, product search, autocomplete, live search
 Requires at least: 5.0
-Tested up to: 6.8.4
-Stable tag: 1.1.9
+Tested up to: 7.0.2
+Stable tag: 1.2.0
 Requires PHP: 7.2.0
 Donate link: https://athemeart.com/downloads/advanced-product-search-for-woo/
 License: GPLv3 or later
@@ -13,46 +13,42 @@ Popup Cart Lite for WooCommerce for WooCommerce plugin that displays popup cart 
 
 == Description ==
 
-[__Live Demo__](https://eds.edatastyle.com/demo/aspw/).
+[__Live Demo__](https://demo.athemeart.com/aspw/)
 
-Advanced Product search for woocommerce – powerful instant search plugin for WooCommerce.You just got to install and simply begin typewriting and you'll instantly see the product list that you simply search.
+If you're hunting for the best WooCommerce Product search solution, you've just found it! This lively Ajax search plugin turns ordinary shopping into a smooth, delightful experience your customers will absolutely love.
 
-It create a simple search box that shows you live search results, by suggesting you product from your WooCommerce shop that match your search out criteria.
+From the moment you install this top product search extension, everything feels effortless. Just drop in the search box, and as soon as visitors start typing, instant live results pop up like magic. Product images, names, prices, and more appear right away — helping people find exactly what they want in seconds. It's easily one of the most user-friendly WooCommerce addons out there!
 
-No coding for knowledge needed for making any search kind for your product search.
+No technical skills? No problem at all. This plugin is designed for real store owners who want quick results without the hassle. You can create beautiful, custom search forms in just a few clicks. Style them however you like, then place them anywhere on your site — whether it's a dedicated search page, your homepage, sidebar, or inside popular builders like [Elementor](https://wordpress.org/plugins/elementor/), Visual Composer, and KingComposer. Shortcodes and widgets make it even more flexible.
 
-Download, install and victimisation the plugin is simple and fun, you'll be able to produce, customise and build the attractive search forms for your product search and may place it on any of the page or in elementor ,visual composer, kingcomposer, widget .
+Want it to blend perfectly with your store’s design? Go ahead and play with unlimited color schemes until it feels just right. Change backgrounds, text colors, accents — whatever matches your brand vibe!
 
-Plugin have the unlimited color schemes of your selections to match your theme.
+**Standout features of this powerful WooCommerce Product search plugin:**
 
+*Super-fast Ajax search that scans through all your WooCommerce products in real time
+*Smart search in product titles, content, excerpts, categories, tags, and SKU — or pick and choose what you want
+*Eye-catching product images displayed in every search result
+*Full support for both simple and variable products
+*Sort results by ascending or descending order
+*Easily turn category and tag filtering on or off
+*Handy live preview so you can test everything before going live
+*Add your own custom CSS for advanced styling tweaks
 
-**Features provided with this plugin:**
-* Products search – Search across all your WooCommerce products
-* Widget and shortcodes to show your WooCommerce searchform in anywhere you want in your WooCommerce site..
-* Search in – Search in product title, content, excerpt, categories, tags and sku. Or just in some of them
-* Product image – Each search result contains product image
-* Works for both simple and variable products.
-* Filter by Ascending and Descending
-* Enable or disable searches by product category and tag.
-* you can preview of advanced searcher option as per your setting.
-* you can apply custom CSS for advanced searcher option.
+**Premium version takes it even further:**
 
+*Tons of placement options including advanced widgets, shortcodes, and seamless integration with all major page builders
+*A rich, full-featured settings page packed with customization choices
+*Control exactly which products appear based on catalog visibility and stock status
+*Show “Add to Cart” buttons directly inside the search dropdown — making it easier than ever for customers to buy on the spot
+*Deeper search capabilities across product excerpts, full descriptions, categories, and tags
+*Plus one really cool standout feature that most other plugins don’t offer (your customers will notice the difference!)
 
+Whether you run a fashion store, electronics shop, or anything in between, this product search extension helps reduce bounce rates, boost sales, and gives your visitors that happy “wow, this is easy” feeling. It’s fun to set up, even more fun to use, and makes your entire WooCommerce store feel more professional and modern.
 
-**Premium Features:**
-* Widget, elementor, visual composer, [kingcomposer](https://kingcomposer.com/) and shortcodes to show your WooCommerce searchform in anywhere you want in your WooCommerce site..
-* Advanced settings page with lot of options
-* Unlimited color schemes
-*  Visibility/stock status option – choose what catalog visibility and stock status must be for product to displayed in search results
-* Add to cart button in search results
-* Search in WooCommerce product excerpt
-* Search in WooCommerce product content
-* Search in WooCommerce product categories
-* Search in WooCommerce product tags
-* An awesome feature that your competitors may not have.
+Ready to upgrade your shop’s search game? Download and install this fantastic WooCommerce addons today. You’ll be amazed at how much better your store feels in just a few minutes!
+Let your customers find what they love faster — and watch your sales thank you later. 🚀✨
 
-
-the plugins tested or theme compatibility with Hello Elementor, OceanWP, Hestia, [Storefront](https://wordpress.org/themes/storefront/), [Astra](https://wpastra.com/). Avada, BeTheme, The7, Flatsome, Enfold, [shopstore](https://wordpress.org/themes/shopstore/) | The Theme, [Shoper](https://wordpress.org/themes/shoper/) , [WoodMart](https://themeforest.net/item/woodmart-woocommerce-wordpress-theme/20264492) and may more .... 
+We've tested our WordPress script thoroughly and it plays super nicely with tons of popular themes — like [Hello Elementor](https://wordpress.org/themes/hello-elementor/), [OceanWP](https://wordpress.org/themes/oceanwp/), Hestia, [Storefront](https://wordpress.org/themes/storefront/), Astra, [Avada](https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226), BeTheme, The7, Flatsome, Enfold, [The9 Store](https://wordpress.org/themes/the9-store/), Shoper, WoodMart, and many more!
 
 == Installation ==
 
@@ -75,6 +71,9 @@ Yes, it will work with any theme, but may require some styling to make it match 
 4. Plugins Options 3
 
 == Upgrade Notice ==
+
+= 1.2.0 =
+* Tested and updated for compatibility with the latest version of WordPress and WooCommerce.
 
 = 1.1.9 =
 * Fix WooCommerce's High-Performance Order Storage (HPOS)
