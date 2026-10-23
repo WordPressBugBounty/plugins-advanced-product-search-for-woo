@@ -2,7 +2,7 @@
 Contributors: aThemeArt
 Tags: woocommerce search, ajax search, product search, autocomplete, live search
 Requires at least: 5.0
-Tested up to: 7.0.2
+Tested up to: 7.0.3
 Stable tag: 1.2.0
 Requires PHP: 7.2.0
 Donate link: https://athemeart.com/downloads/advanced-product-search-for-woo/
@@ -15,7 +15,7 @@ Popup Cart Lite for WooCommerce for WooCommerce plugin that displays popup cart 
 
 [__Live Demo__](https://demo.athemeart.com/aspw/)
 
-If you're hunting for the best WooCommerce Product search solution, you've just found it! This lively Ajax search plugin turns ordinary shopping into a smooth, delightful experience your customers will absolutely love.
+If you're hunting for the best WooCommerce product search solution, you've just found it! This lively Ajax search plugin turns ordinary shopping into a smooth, delightful experience your customers will absolutely love.
 
 From the moment you install this top product search extension, everything feels effortless. Just drop in the search box, and as soon as visitors start typing, instant live results pop up like magic. Product images, names, prices, and more appear right away — helping people find exactly what they want in seconds. It's easily one of the most user-friendly WooCommerce addons out there!
 
@@ -23,7 +23,7 @@ No technical skills? No problem at all. This plugin is designed for real store o
 
 Want it to blend perfectly with your store’s design? Go ahead and play with unlimited color schemes until it feels just right. Change backgrounds, text colors, accents — whatever matches your brand vibe!
 
-**Standout features of this powerful WooCommerce Product search plugin:**
+**Standout features of this powerful WooCommerce product search plugin:**
 
 *Super-fast Ajax search that scans through all your WooCommerce products in real time
 *Smart search in product titles, content, excerpts, categories, tags, and SKU — or pick and choose what you want

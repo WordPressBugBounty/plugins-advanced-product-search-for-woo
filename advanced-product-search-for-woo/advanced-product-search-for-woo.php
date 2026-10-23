@@ -8,7 +8,7 @@ Author: aThemeArt
 Author URI:  https://athemeart.net
 Domain Path: /languages/
 Text Domain: apsw-lang
-Tested up to: 7.0.2
+Tested up to: 7.2.0
 WC requires at least: 3.0.0
 WC tested up to: 11.4.2
 */
